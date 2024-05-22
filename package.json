@@ -21,9 +21,6 @@
   "author": "Igor Magdich <magdich.igor@gmail.com>",
   "main": "out/index.js",
   "types": "out/index.d.ts",
-  "files": [
-    "/out"
-  ],
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc --pretty  --project tsconfig.prod.json",
