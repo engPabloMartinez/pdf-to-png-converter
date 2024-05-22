@@ -1,5 +1,4 @@
 coverage
-out
 test-results
 .vscode
 
@@ -111,3 +110,5 @@ dist
 # IntelliJ IDEA files
 .idea
 *.iml
+
+.history/
