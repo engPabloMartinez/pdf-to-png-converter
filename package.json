@@ -14,7 +14,8 @@
     "url": "https://github.com/dichovsky/pdf-to-png-converter/issues"
   },
   "files": [
-    "src"
+    "src",
+    "tsconfig.prod.json"
   ],
   "repository": {
     "type": "git",
