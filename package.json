@@ -13,6 +13,9 @@
   "bugs": {
     "url": "https://github.com/dichovsky/pdf-to-png-converter/issues"
   },
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dichovsky/pdf-to-png-converter.git"
@@ -36,7 +39,8 @@
     "lint:fix": "npm run lint -- --fix",
     "pretest": "npm run clean && npm run build:test",
     "test": "mocha",
-    "test:docker": "npm run docker:build && npm run docker:run"
+    "test:docker": "npm run docker:build && npm run docker:run",
+    "postinstall": "npm run prebuild && npm run build"
   },
   "dependencies": {
     "canvas": "^2.11.2",
